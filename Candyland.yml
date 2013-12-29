@@ -1,0 +1,30 @@
+info:
+  title: Candy Land
+  world: CandyLand
+  duration: 900
+  version: 1.0
+  type: oitc
+  difficulty: hard
+  creators:
+  - 8bitChap
+  spawn: -96.5,117,887.5,-180,0
+teams:
+  white:
+    title: Players
+    friendly-fire: true
+flags:
+  fall_damage:
+    who: '*'
+    where: '*'
+spawns:
+  - -79.5,107,912.5,-180,0
+  - -64.5,107,886.5,90,0
+  - -50.5,107,862.5,90,0
+  - -82.5,108,822.5,0,0
+  - -118.5,109,810.5,0,0
+  - -170.5,108,820.5,-90,0
+  - -144.5,108,856.5,-90,0
+  - -121.5,107,901.5,-90,0
+  - -106.5,107,901.5,-90,0
+  - -96.5,108,887.5,0,0
+  - -88.5,113,850.5,0,0
