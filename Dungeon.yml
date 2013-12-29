@@ -1,0 +1,26 @@
+info:
+  title: Dungeon
+  world: Dungeon
+  duration: 3600
+  version: 1.0
+  type: minotaur
+  creators:
+  - funkystudios
+  contributors:
+  - killerbye22
+  spawn: 23.5,103,-792.5,0,0
+teams:
+  red:
+    title: Minotaur
+    max: 0
+    spawn: 3.5,25,-825.5,0,0
+  lime:
+    title: Players
+    max: 15
+    spawn: 3.5,25,-817.5,0,0
+regions:
+  win:
+    type: cuboid
+    min: 19,16,-622
+    max: -11,36,-604
+goal: win
