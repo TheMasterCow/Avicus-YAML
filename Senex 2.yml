@@ -1,0 +1,68 @@
+info:
+  title: Senex 2
+  world: Senex2
+  duration: 3600
+  build: true
+  version: 1.1
+  type: ctm
+  creators:
+  - ParaPenguin
+  - ParaPhoenix
+  spawn: 114,53,-788,-90,0
+  radius: 12
+  time-lock: true
+
+loadout:
+  helmet:
+    item: leather_helmet
+    soulbound: true
+  0:
+    item: stone_sword
+    soulbound: true
+  1:
+    item: bow
+    soulbound: true
+  2:
+    item: diamond_pickaxe
+    soulbound: true
+  3:
+    item: log
+    amount: 64
+  4:
+    item: glass
+    amount: 32
+  5:
+    item: sandstone
+    amount: 64
+  7:
+    item: chicken
+    soulbound: true
+    amount: 16
+  28:
+    item: arrow
+    amount: 16
+  32:
+    item: sandstone
+    amount: 64
+
+teams:
+  orange:
+    spawn: 11,72,103,180,0
+    title: Haribo
+    monuments:
+      a:
+        name: Left
+        location: 256,27,-807
+      b:
+        name: Right
+        location: 256,27,-769
+  gray:
+    spawn: -3,76,-88,-3,-90,0
+    title: Phoenix
+    monuments:
+      a:
+        name: Left
+        location: -25,27,-769
+      b:
+        name: Right
+        location: -25,27,-807
